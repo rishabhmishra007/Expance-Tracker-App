@@ -41,7 +41,7 @@ export default function Summary({
           mr={"2"}
         >
           <Heading size={"md"} mb={"4"} color={"gray.600"}>
-            Balance is $ {totalIncome - totalExpense}
+            Balance is ₹ {totalIncome - totalExpense}
           </Heading>
           <Flex
             justifyContent={"space-evenly"}
@@ -53,7 +53,7 @@ export default function Summary({
             borderColor={"gray.100"}
           >
             <Flex flexDirection={"column"}>
-              <Heading color={"gray.700"}>$ {totalIncome}</Heading>
+              <Heading color={"gray.700"}>₹ {totalIncome}</Heading>
               <Text color={"gray.600"}>Total Income</Text>
             </Flex>
           </Flex>
@@ -67,7 +67,7 @@ export default function Summary({
             borderColor={"gray.100"}
           >
             <Flex flexDirection={"column"}>
-              <Heading color={"gray.700"}>$ {totalExpense}</Heading>
+              <Heading color={"gray.700"}>₹ {totalExpense}</Heading>
               <Text color={"gray.600"}>Total Expense</Text>
             </Flex>
           </Flex>
